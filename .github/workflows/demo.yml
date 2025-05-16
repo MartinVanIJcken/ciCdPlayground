@@ -32,6 +32,6 @@ jobs:
         continue-on-error: true
 
       - name: Report JUnit test results
-        uses: actions/junit-report@v5
+        uses: mikepenz/action-junit-report@v5
         with:
           test_results: 'junit.xml'
