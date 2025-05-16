@@ -30,8 +30,3 @@ jobs:
       - name: Integration tests
         run: yarn test:e2e
         continue-on-error: true
-
-      - name: Report JUnit test results
-        uses: actions/junit-report@v2
-        with:
-          test_results: 'junit.xml'
