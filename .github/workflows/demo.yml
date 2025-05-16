@@ -36,4 +36,4 @@ jobs:
         if: success() || failure() # always run even if the previous step fails
         include_passed: true
         with:
-          report_paths: '**/build/test-results/test/TEST-*.xml'
+          report_paths: '**/build/test-reports/*.xml'
